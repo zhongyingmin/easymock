@@ -1,6 +1,6 @@
 {
   "port": 7300,
-  "host": "0.0.0.0",
+  "host": "192.168.0.116",
   "pageSize": 30,
   "proxy": false,
   "db": "mongodb://localhost/easy-mock",
@@ -8,13 +8,13 @@
   "redis": {
     "keyPrefix": "[Easy Mock]",
     "port": 6379,
-    "host": "localhost",
+    "host": "192.168.0.116",
     "password": "",
     "db": 0
   },
   "blackList": {
-    "projects": [],
-    "ips": []
+    "projects": ["5e70a1f7e51d0e38885d66fc"],
+    "ips": ["192.168.2.126"]
   },
   "rateLimit": {
     "max": 1000,
